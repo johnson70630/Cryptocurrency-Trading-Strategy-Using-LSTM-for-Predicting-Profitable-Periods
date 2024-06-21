@@ -30,6 +30,8 @@ We add label in [true label](https://github.com/johnson70630/Trading-Strategy-wi
 We ultimately use the dataset with more data points to train the model.
 (model prediction ->  1 or 0  ->  PnL > 0  or  PnL  < 0)
 ## Modeling
+[Modeling file](https://github.com/johnson70630/Trading-Strategy-with-LSTM/blob/main/LSTM_15min/LSTM_prediction_15min_period.ipynb) has all precoss of data processing, model training, and output.
+
 **Input:**   recent data + previous 16 data points (4hr) 
 
 **predict:**    the label of next K line
@@ -43,6 +45,8 @@ Split data on 2023-06-30
 - Training Accuracy: 69.47%
 - Testing Accuracy:  64.95%
 ## Strategy ﻿Result
+[Compare Profit file](https://github.com/johnson70630/Trading-Strategy-with-LSTM/blob/main/LSTM_15min/comparing_profit.ipynb) demonstrated the result of the trading strategy overall profit from 2023-06-30 ~ 2024-06-09, and the result after LSTM prediction.
+
 Date:  2023-06-30 ~ 2024-06-09
 
 **Strategy Before Model Prediction**
