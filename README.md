@@ -30,12 +30,26 @@ We add label in [true label](https://github.com/johnson70630/Trading-Strategy-wi
 We ultimately use the dataset with more data points to train the model.
 (model prediction ->  1 or 0  ->  PnL > 0  or  PnL  < 0)
 ## Modeling
-Input:   recent data + previous 16 data points (4hr) 
+**Input:**   recent data + previous 16 data points (4hr) 
 
-predict:    the label of next K line
+**predict:**    the label of next K line
 
 Split data on 2023-06-30
 
 - training data:  80,000+  
 - testing data:  30,000+
 ## Training Result
+- Train 50 epochs (1~2 hr)
+- Training Accuracy: 69.47%
+- Testing Accuracy:  64.95%
+## Strategy ﻿Result
+Date:  2023-06-30 ~ 2024-06-09
+**Strategy Before Model Prediction**
+- Total PnL:  164621.37
+- Win Rate:  46.45%
+
+**Strategy After Model Prediction**
+- Total PnL:  100063.53
+- Win Rate: 45.84%
+
+## Conclusion
