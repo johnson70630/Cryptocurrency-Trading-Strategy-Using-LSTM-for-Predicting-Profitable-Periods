@@ -44,6 +44,7 @@ Split data on 2023-06-30
 - Testing Accuracy:  64.95%
 ## Strategy ﻿Result
 Date:  2023-06-30 ~ 2024-06-09
+
 **Strategy Before Model Prediction**
 - Total PnL:  164621.37
 - Win Rate:  46.45%
@@ -52,4 +53,19 @@ Date:  2023-06-30 ~ 2024-06-09
 - Total PnL:  100063.53
 - Win Rate: 45.84%
 
-## Conclusion
+## Ways to Improve 
+- **Multi-Timeframe Analysis**
+
+  We found that the short-term market may be hard to predict. As a result, we could add data from different time frame to confirm signal.
+- **Add different types data (IV, Funding Rate, Option data)**
+
+  Many of the technical indicators we use are related to price and have high homogeneity. Therefore, we could consider using different
+  indicators, such as implied volatility, funding rates, and options prices.
+- **Different way of labeling**
+
+  Perhaps the labeled data for the periods cannot provide the model with sufficient discriminatory power. We could try different labeling
+  methods, such as labeling market trends instead of adjusting the labels based on the strategy.
+- **Use Transformer in model**
+
+  We all know that transformers are very powerful models. Perhaps we can apply their positional encoding method to help the model assign more
+  appropriate weights to each feature.
