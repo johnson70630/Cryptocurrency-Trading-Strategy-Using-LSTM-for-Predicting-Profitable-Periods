@@ -68,7 +68,7 @@ Date:  2023-06-30 ~ 2024-06-09
 - **Different way of labeling**
 
   Perhaps the labeled data for the periods cannot provide the model with sufficient discriminatory power. We could try different labeling
-  methods, such as labeling market trends instead of adjusting the labels based on the strategy.
+  methods, such as labeling market trends instead of adjusting the labels based on the strategy. Alternatively, we could label the periods of significant losses and gains separately. Binary classification might not be sufficient.
 - **Use Transformer in model**
 
   We all know that transformers are very powerful models. Perhaps we can apply their positional encoding method to help the model assign more
