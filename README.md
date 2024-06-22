@@ -32,7 +32,7 @@ We ultimately use the dataset with more data points to train the model.
 ## Modeling
 [Modeling file](https://github.com/johnson70630/Trading-Strategy-with-LSTM/blob/main/LSTM_15min/LSTM_prediction_15min_period.ipynb) has all precoss of data processing, model training, and output.
 
-**Input:**   recent data + previous 16 data points (4hr) 
+**Input:**   recent data + previous 24 data points (6hr) 
 
 **predict:**    the label of next K line
 
