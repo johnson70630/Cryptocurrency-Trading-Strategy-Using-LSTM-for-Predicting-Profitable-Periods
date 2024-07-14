@@ -1,4 +1,4 @@
-# Trading-Strategy-with-LSTM
+# Cryptocurrency Trading Strategy Using LSTM for Predicting Profitable Periods
 
 ## Why?
 In quantitative trading strategies, there are range-bound strategies and breakout strategies. This time, we developed a price trend reversal strategy. However, in unsuitable market conditions, the strategy continuously incurs losses, leading to self-doubt and the desire to shut down the strategy. Can we avoid this situation?
