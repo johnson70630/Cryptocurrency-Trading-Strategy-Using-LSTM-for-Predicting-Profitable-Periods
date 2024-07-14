@@ -1,7 +1,9 @@
 # Trading-Strategy-with-LSTM
 
 ## Why?
-Quantitative strategies inevitably incur losses. If AI can predict the periods when a quantitative strategy will incur losses, can it reduce losses and increase the win rate?
+In quantitative trading strategies, there are range-bound strategies and breakout strategies. This time, we developed a price trend reversal strategy. However, in unsuitable market conditions, the strategy continuously incurs losses, leading to self-doubt and the desire to shut down the strategy. Can we avoid this situation?
+
+We are attempting to use LSTM models that handle time-series data to predict the periods when the strategy will be profitable or non profitable. By determining when to activate or deactivate the strategy based on these predictions, can we reduce the instances of losses and further improve the performance of the breakout strategy?
 ## LSTM
 An LSTM (Long Short-Term Memory) model is a type of recurrent neural network (RNN) designed to effectively learn and remember long-term dependencies in sequential data.
 ## Fetching Data
